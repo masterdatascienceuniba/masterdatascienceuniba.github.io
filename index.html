@@ -3,17 +3,11 @@ layout: page
 permalink: /index.html
 title: Home
 order: 1
-feature-img: "assets/img/pexels-pixabay-373543.jpg"
+feature-img: "assets/img/0dc02683-a131-4d05-bda6-2845dbdd6879.jpeg"
 ---
 
 
 <h1>Master Universitario di II livello in DATA SCIENCE - Metodologie, analisi, progettazione, soluzioni, A.A. 2023/2024</h1>
-
-<p>
-WiC-ITA is the first Word-in-Context task for Italian, organized within 
-<a href="https://www.evalita.it/campaigns/evalita-2023/">Evalita 2023</a>, the 8th evaluation campaign of Natural Language Processing and Speech tools for Italian, which will be held in Parma (Italy) (7th-8th September 2023) - an initiative of the <a href="https://www.ai-lc.it/">Italian Association for Computational Linguistics (AILC)</a>.
-</p>
-
 
 <h2>News</h2>
 <p>
@@ -23,14 +17,14 @@ WiC-ITA is the first Word-in-Context task for Italian, organized within
 
 </p>
 
+<h2>Il Master</h2>
+
 <p>
     La figura del Data Scientist è di recente individuazione, ma si rivela sempre più essenziale per lo sviluppo di azioni competitive da parte delle imprese nei mercati globali. Tale figura professionale, infatti, costituisce un ideale trait d’union tra alcune delle figure più ricercate nel mercato del recruitment: analisti, manager, informatici, ed in generale esperti abituati a lavorare con i dati in contesti aziendali di diverse dimensioni.
     Il Data Scientist è un professionista dotato di un mix di competenze multidisciplinari in grado di gestire grandi quantità di dati, di estrarre conoscenza, di presentarla in forma organizzata, leggibile ed efficace, secondo le politiche etiche e legali opportune, garantendo un efficace sistema di supporto alle decisioni.
     La sfida della formazione della figura del Data Scientist è quindi quella di integrare competenze estremamente diversificate, quali la statistica, il data mining e machine learning, l'analisi dei dati e la loro visualizzazione e la gestione dei dati non strutturati, conoscendo a fondo i risvolti legali che il loro utilizzo comporta.
     Il Data Scientist si colloca efficacemente come figura di raccordo tra diverse funzioni aziendali, e diviene responsabile delle dinamiche di crescita delle imprese.    
 </p>
-
-
 
 
 <h2>Contatti</h2>
@@ -40,49 +34,37 @@ Se hai bisogno di informazioni, contatta:
 </ul>
 
 <script>
-const ul = document.getElementsByTagName("nav")[0].getElementsByTagName("ul")[0];
-ul.innerHTML = `
-            <li>
-                <a class="clear" aria-label="Home" title="Home" href="/index.html">
-                     Home 
-                </a>
-            </li>
+    const ul = document.getElementsByTagName("nav")[0].getElementsByTagName("ul")[0];
+    ul.innerHTML = `
+                <li>
+                    <a class="clear" aria-label="Home" title="Home" href="/index.html">
+                         Home 
+                    </a>
+                </li>
+                <li class="separator"> | </li>
+                <li>
+                    <a class="clear" aria-label="Iscrizioni" title="Submit Results" href="/submit/">
+                         Iscrizioni 
+                    </a>
+                </li>
+                <li class="separator"> | </li>
+                <li>
+                    <a class="clear" aria-label="Scadenze" title="Important Dates" href="/dates/">
+                         Scadenze 
+                    </a>
+                </li>
+                <li class="separator"> | </li>
+                <li>
+                    <a class="clear" aria-label="Organizers" title="Organizzatori" href="/organizers/">
+                         Organizzatori 
+                    </a>
+                </li>
+                <li class="separator"> | </li>
             <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="Submit Results" title="Submit Results" href="/submit/">
-                     Submit Results 
-                </a>
-            </li>
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="Tasks" title="Tasks" href="/task/">
-                     Tasks 
-                </a>
-            </li>
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="Data" title="Data" href="/data/">
-                     Data 
-                </a>
-            </li>
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="Important Dates" title="Important Dates" href="/dates/">
-                     Important Dates 
-                </a>
-            </li>
-            <li class="separator"> | </li>
-            <li>
-                <a class="clear" aria-label="Organizers" title="Organizers" href="/organizers/">
-                     Organizers 
-                </a>
-            </li>
-            <li class="separator"> | </li>
-        <li class="separator"> | </li>
-            <li>
-            	<a id="theme-toggle" title="Home " aria-label="Home" onclick="themeToggle()">
-            		<i class="fas fa-adjust" aria-hidden="true"></i>
-            	</a>
-            </li>
-`;
-</script>
+                <li>
+                    <a id="theme-toggle" title="Home " aria-label="Home" onclick="themeToggle()">
+                        <i class="fas fa-adjust" aria-hidden="true"></i>
+                    </a>
+                </li>
+    `;
+    </script>
